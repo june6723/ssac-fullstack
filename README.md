@@ -9,3 +9,6 @@
 ## 1. Linux
 
 ## 2. MySql
+
+- MySql XdevAPI
+- Index and Partition

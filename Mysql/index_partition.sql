@@ -8,8 +8,7 @@ explain select * from Emp where dept =5 and ename like '%천%';
 
 
 analyze table Emp;
-
-show table status where name in ('Emp');
+ㅇshow table status where name in ('Emp');
 show index from Emp;
 
 select * from Emp;
@@ -56,4 +55,21 @@ select * from Notice
 select * from Notice where match(title, contents) against('조선');
 
 show variables like 'innodb_ft%';
+
+-- 인덱싱 확인
 set global innodb_ft_aux_table = 'jetdealdb/Notice';
+
+select * from information_schema.innodb_ft_index_table;
+
+SET GLOBAL innodb_optimize_fulltext_only = ON;
+OPTIMIZE TABLE Notice;
+SET GLOBAL innodb_optimize_fulltext_only = OFF;
+
+select * from Notice where match(title, contents) against('조선');
+select * from Notice where match(title, contents) against('database' with query expansion);
+
+select * from Notice where match(title, contents) against('조선*' in boolean mode);
+
+select * from Notice where match(title, contents) against('문신* 무신*' in boolean mode);
+select * from Notice where match(title, contents) against('문신* 무신* -후기*' in boolean mode);
+select * from Notice where match(title, contents) against('문신* 무신* +중기*' in boolean mode);
