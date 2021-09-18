@@ -6,9 +6,9 @@
 ## Books
 
 ### Rules
-링크 X / 체크 X -> 아직 읽지 않음
-링크 O / 체크 X -> 1회독 중
-링크 O / 체크 O -> 정리 완료
+링크 X / 체크 X -> 아직 읽지 않음 <br/>
+링크 O / 체크 X -> 1회독 중 <br/>
+링크 O / 체크 O -> 정리 완료<br/>
 `모던 자바스크립트 Deep Dive`
 - [ ] [ch.23 - 실행 컨텍스트](https://github.com/june6723/ssac-fullstack/blob/master/Books/JSDeepDive/ch23.Execution_Context.md)
 ## 1. Linux
