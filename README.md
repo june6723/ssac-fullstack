@@ -14,6 +14,9 @@
 - [x] [ch.02 - 자바스크립트란?](Books/JSDeepDive/ch02.Javascript.md)
 - [x] [ch.03 - 자바스크립트 개발 환경과 실행방법](Books/JSDeepDive/ch03.JavaScriptDevEnv.md)
 - [x] [ch.04 - 변수](Books/JSDeepDive/ch04.Variable.md)  
+- [x] [ch.05 - 표현식과 문](Books/JSDeepDive/ch05.Expression_statement.md)  
+- [x] [ch.06 - 데이터 타입](Books/JSDeepDive/ch06.DataType.md))  
+- [x] [ch.07 - 연산자](Books/JSDeepDive/ch07.Operator.md))  
 - [ ] [ch.23 - 실행 컨텍스트](https://github.com/june6723/ssac-fullstack/blob/master/Books/JSDeepDive/ch23.Execution_Context.md)
 - [ ] [ch.24 - 클로저](Books/JSDeepDive/ch24.Closer.md)
 ## 1. Linux
