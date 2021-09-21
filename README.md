@@ -16,7 +16,8 @@
 - [x] [ch.04 - 변수](Books/JSDeepDive/ch04.Variable.md)  
 - [x] [ch.05 - 표현식과 문](Books/JSDeepDive/ch05.Expression_statement.md)  
 - [x] [ch.06 - 데이터 타입](Books/JSDeepDive/ch06.DataType.md))  
-- [x] [ch.07 - 연산자](Books/JSDeepDive/ch07.Operator.md))  
+- [x] [ch.07 - 연산자](Books/JSDeepDive/ch07.Operator.md)) 
+- [ ] [ch.08 - 제어문] 
 - [ ] [ch.23 - 실행 컨텍스트](https://github.com/june6723/ssac-fullstack/blob/master/Books/JSDeepDive/ch23.Execution_Context.md)
 - [ ] [ch.24 - 클로저](Books/JSDeepDive/ch24.Closer.md)
 ## 1. Linux
