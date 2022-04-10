@@ -36,3 +36,8 @@ screenOptions로 전체설정 혹은 Screen 하나씩 따로 설정 가능
 - Tab과 Stack을 함께 사용하는 방법
 
 Root를 Stack Navigator로 만들어서 Tabs,Stack을 포함시켜준다
+
+### Day 7
+
+`ScrollView` 컴포넌트는 children을 한번에 렌더한다. 성능상 이슈가 생길 수 있음
+`FlatList` 컴포넌트는 Lazy render를 지원한다
