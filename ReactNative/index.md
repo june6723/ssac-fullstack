@@ -41,3 +41,8 @@ Root를 Stack Navigator로 만들어서 Tabs,Stack을 포함시켜준다
 
 `ScrollView` 컴포넌트는 children을 한번에 렌더한다. 성능상 이슈가 생길 수 있음
 `FlatList` 컴포넌트는 Lazy render를 지원한다
+`SectionList`는 큰 카테고리가 상단에 유지된다
+
+`FlatList`의 ListHeaderComponent를 이용하여 여러 List를 구현할 수 있다
+
+https://snack.expo.dev/@tassadar/rn-day-four-b
