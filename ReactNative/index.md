@@ -46,3 +46,11 @@ Root를 Stack Navigator로 만들어서 Tabs,Stack을 포함시켜준다
 `FlatList`의 ListHeaderComponent를 이용하여 여러 List를 구현할 수 있다
 
 https://snack.expo.dev/@tassadar/rn-day-four-b
+
+## Day 9
+
+`react-query`는 RTK query를 다뤄봐서 이해가 빨랐음
+쓰는 방식이 유사해서 RTK query에서 적용하는것도 좋을것 같음
+
+Navigation Props 다루고 params 넘겨 받기
+Share, WebBrowser 컴포넌트 연결해서 공유하기
