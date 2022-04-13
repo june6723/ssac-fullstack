@@ -54,3 +54,17 @@ https://snack.expo.dev/@tassadar/rn-day-four-b
 
 Navigation Props 다루고 params 넘겨 받기
 Share, WebBrowser 컴포넌트 연결해서 공유하기
+
+## Day 10
+
+Animated
+
+```
+const AnimatedBox = Animated. createAnimatedComponent(Box);
+
+...
+
+const Y = new Animated.Value(0);
+```
+
+Animated API를 사용해서 값을 변경한다
